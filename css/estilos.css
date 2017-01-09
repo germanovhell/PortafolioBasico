@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+.lateral{
+  background-color: #56B3AB;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  padding: 1em;
+  position: fixed;
+  width: 350px;
+}
+/* Perfil*/
+.perfil_circulo{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  overflow: hidden;
+}
+.perfil_foto{
+  width: 100%;
+}
+.perfil_nombres{
+  color: #fff;
+  margin-left: .5em;
+  font-size: 20px;
+  width: 250px;
+}
+.perfil_nombres, .perfil_circulo{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Información*/
+.informacion{
+  color: #0E6A62;
+  position: absolute;
+  bottom: 1em;
+}
+.informacion_titulo{
+  font-size: 18px;
+}
+
+/* Habilidades */
+.habilidades{
+  padding: 0;
+}
+.habilidad{
+  background-color: #0F6A62;
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  padding: .5em;
+  text-transform: uppercase;
+}
